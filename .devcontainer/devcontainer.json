@@ -25,11 +25,11 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"ms-azuretools.vscode-docker",
-				"ms-azuretools.vscode-bicep",
-				"ms-azuretools.vscode-azcli",
+				// "ms-azuretools.vscode-docker",
+				// "ms-azuretools.vscode-bicep",
+				"ms-vscode.azurecli",
 				"ms-vscode.powershell",
-				"ms-dotnettools.csharp",
+				// "ms-dotnettools.csharp",
 				"hashicorp.terraform",
 				"streetsidesoftware.code-spell-checker",
 				"esbenp.prettier-vscode"
