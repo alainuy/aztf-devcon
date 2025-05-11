@@ -18,7 +18,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "echo 'alias ll=\"ls -alF\"' >> ~/.bashrc && echo 'alias tf=\"terraform\"' >> ~/.bashrc && source ~/.bashrc",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -26,14 +26,11 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-azuretools.vscode-azurecli",
-				"ms-azuretools.vscode-azcopy",
-				"ms-azuretools.vscode-azdata",
-				"ms-azuretools.vscode-bicep",
-				"ms-azuretools.vscode-cosmosdb",
-				"ms-azuretools.vscode-docker",
-				"ms-azuretools.vscode-helm",
-				"ms-azuretools.vscode-kubernetes-tools",
-				"ms-azuretools.vscode-terraform"
+				// "ms-azuretools.vscode-azdata",
+				// "ms-azuretools.vscode-bicep",
+				// "ms-azuretools.vscode-docker",
+				// "ms-azuretools.vscode-terraform",
+				"hashicorp.terraform"
 			]
 		}
 	}
